@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+}
+.containerMain {
+    background-color: rgb(27, 27, 27);
+       font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: none;
+    font-size: 30px;
+    text-align: center;     
+}
+.displayName {
+   font-size: 40px;
+    z-index: 999;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(27, 27, 27);
+    
+}
+.button {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 999;
+    background-color: rgb(43, 43, 43);
+        margin: 0px auto 0 auto;
+    
+    font-size: 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border: 2px solid rgb(35, 35, 35);
+}
+#tolist {
+    left: 0px;
+    bottom: 0px;
+}
+#tovideo {
+    bottom:0px;
+    left: 150px;
+}
+#likes {
+     left: 140px;
+
+    top: 120px;
+}
+#dislikes {
+    left: 240px;
+   top: 120px;
+   
+}
+.button:hover{
+    border: 6px solid rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+
+.thumbnailImage {
+    background: rgba(17, 17, 17, 0.068);
+    position: absolute; 
+    
+    top:0px;
+    height: 100%;
+    width: 100%;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-size: 100% auto; 
+    border-radius: 30px;
+    z-index: 0;
+    
+    filter: blur(0px);
+
+    
+}
+.infodisplay {
+      font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: aliceblue;
+    filter: blur(0px);
+    width:27%;
+    height:30%;
+    background-color: rgb(19, 19, 19);
+    border-radius: 20px;
+    margin: 65px auto 0 10px;
+    
+    text-align: center;
+    border: 4px solid rgb(15, 15, 15);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    
+}
+.textdisplay {
+    text-align: left;
+    background: rgb(29, 29, 29);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 100px;
+}

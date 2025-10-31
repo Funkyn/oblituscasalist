@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    background-attachment: fixed ;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    
+    
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    
+}
+
+
+
+
+
+@font-face {
+    font-family: oblituscasa;
+    src:url("NewWaltDisneyFontRegular-BPen.ttf");
+}
+.banner {
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+        background-size: cover;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 60px auto 0 auto;
+     width: 50%;
+     height:180px;
+     border-radius: 30px;
+     background-image: url(assets/full43.png);
+}
+.toppage {
+    background-color: rgb(32, 32, 32);
+    
+    font-family: oblituscasa;
+    color: aliceblue;
+    font-size: 30px;
+    border: 0px solid rgb(54, 54, 54);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) ;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.menubox {
+    width: 600px;
+    height:180px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+    margin: 20px auto 0 auto;
+    display: flex;
+   cursor:pointer;
+    align-items: center;
+}
+.section1 {
+      background-attachment:scroll;
+    background-image: url(assets/rnwhu.png);
+    margin: 0 0 0 10px;
+    width:240px;
+    height:135px;
+    background-color:rgb(41, 41, 41);
+    background-size:100%;
+    background-position: -0px -22px;
+    background-repeat:no-repeat;
+    border-radius: 15px;
+   
+    border: 5px solid rgb(41, 41, 41);
+     box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.main {
+    
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    width: 330px;
+    height: 100px;
+    border-radius: 0px 20px 20px 0px;
+    background-color:rgb(41, 41, 41);
+    margin: 0 0 20px 0;
+    color: aliceblue;
+    display: flex;
+}
+.menubox:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.modetitle {
+    background: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 27px;
+    margin: 0px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.tags {
+    background: none;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 20px;
+}
+.gamename {
+    background: none;
+    
+    text-align: right;
+    font-size: 15px;
+    
+    font-weight: 400 ;
+    
+    margin: 0px 0px 0px 70px;
+
+}
+.info {
+    position: absolute;
+    align-self: center;
+    color:aliceblue;
+    margin: 110px 0px 0px 260px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    background: none;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.checkbox-container {
+      display: flex;
+      
+      font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      gap: 10px;
+      color: white;
+      font-size: 16px;
+    margin: 20px auto 0 auto;
+      background-color: rgb(41, 41, 41);;
+      border: 10px solid rgb(41, 41, 41);
+       border-radius: 10px;
+
+}

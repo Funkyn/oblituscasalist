@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <div class="toppage">Oblitus Casa Modes List</div>
+   
+    <div class="container">
+
+       <div class="banner">.</div>
+        <label class="checkbox-container">
+    <input type="checkbox" id="tick" checked onclick="tickChange()">
+    Include private builds
+  </label>
+      <div class="menubox" id="modebox" onclick="getID(this)" >
+        
+        <div class="section1" id = "thumbnailPrimary">
+            
+        </div>
+        <div class="main" id="number">#1
+            <div class="modetitle" id="title_">This is a mode
+                <div class="tags" id="variant__">[NPM, NLT, NFT, NCP]</div>
+            </div>
+            
+        </div>
+        <div class="info" id="ver">Oblitus Casa [2.0.5]</div>
+      </div>
+    
+
+
+
+      
+    </div>
+
+
+
+</head>
+<body style="background-image: url('assets/bg.png');">
+    <script type="text/javascript" src="data.json"></script>
+    <script src="app.js"></script>
+</body>
