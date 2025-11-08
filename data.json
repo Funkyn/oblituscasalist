@@ -43,15 +43,7 @@
         "selfimposed" : "No Post Mortem, No Luring Together",
         "private" : 0
     },
-    {
-        "title": "Smile Dog Evil Mode",
-        "tags": "[PVT]",
-        "gamever": "Oblitus Casa [vEvil]",
-        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte on 20 Jan 2025. This is the current hardest creepypasta challenge.",
-        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
-        "selfimposed" : "No self imposed challenges for this mode.",
-        "private" : 1
-    },
+  
     
      
      {
@@ -63,7 +55,15 @@
         "selfimposed" : "---------",
         "private" : 0
     },
-   
+     {
+        "title": "Smile Dog Evil Mode",
+        "tags": "[PVT]",
+        "gamever": "Oblitus Casa [vEvil]",
+        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte on 20 Jan 2025. This is the current hardest creepypasta challenge.",
+        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 1
+    },
      {
         "title": "True Nightmare No Luring Together",
         "tags": "[NLT]",
@@ -71,6 +71,15 @@
         "info": "This mode was verified by Nephryte.",
         "thumbnail": "https://www.youtube.com/watch?v=6t1JutKEgu4&t=159s",
         "selfimposed" : "No Luring Together",
+        "private" : 0
+    },
+       {
+        "title": "Night 6 Reverse Greed",
+        "tags": "[AMD]",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by Nephryte. This is the hardest base casa challenge.",
+        "thumbnail": "https://www.youtube.com/watch?v=jc2dgIDZzBE",
+        "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
     
@@ -115,7 +124,7 @@
      
        {
         "title": "Jeff The Killer Evil Mode",
-        "tags": "[PVT]",
+        "tags": "[PVT, HM]",
         "gamever": "Oblitus Casa [vEvil]",
         "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte. You must now reboot the cameras by clicking on each of them 200 times instead of simply holding the camera button.",
         "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
@@ -153,24 +162,14 @@
     },
     {
         "title": "Creepypasta Challenges Hard Mode Deathless",
-        "tags": "[HM]",
+        "tags": "[HM, ND],",
         "gamever": "Oblitus Casa [2.0.5]",
         "info": "This mode was verified by Nephryte and requires you to beat all Creepypasta Challenges on Hard Mode without dying.",
         "thumbnail": "https://www.youtube.com/watch?v=uQhDFyYm4Vw&",
         "selfimposed" : "Deathless",
         "private" : 0
     },
-      
-      {
-        "title": "True Nightmare",
-        "tags": "",
-        "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by Nephryte.",
-        "thumbnail": "https://www.youtube.com/watch?v=jc2dgIDZzBE",
-        "selfimposed" : "No self imposed challenges for this mode.",
-        "private" : 0
-    },
-      {
+          {
         "title": "True Limbo",
         "tags": "",
         "gamever": "Oblitus Casa [2.0.5]",
@@ -180,6 +179,16 @@
         "private" : 0
 
     },
+      {
+        "title": "True Nightmare",
+        "tags": "",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by Nephryte.",
+        "thumbnail": "https://www.youtube.com/watch?v=jc2dgIDZzBE",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
+  
      {
         "title": "Night 6 No Flashing Together",
         "tags": "[NFT]",
@@ -279,5 +288,6 @@
       
      
 ]
+
 
 
