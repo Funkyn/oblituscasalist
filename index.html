@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oblitus Casa Modes List</title>
+    <title>The Casa Modes List</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="styles.css">
 
     <div class="toppage">Oblitus Casa Modes List</div>
-   
+   <div class="bottompage">Not Logged In [0]</div>
     <div class="container">
 
        <div class="banner">.</div>
-        <label class="checkbox-container">
+       <div class="loading" id="lding"></div>
+        <label class="checkbox-container" id="chk">
+    
     <input type="checkbox" id="tick" checked onclick="tickChange()">
     Include private builds
   </label>
@@ -26,7 +28,7 @@
             
         </div>
         <div class="main" id="number">#1
-            <div class="modetitle" id="title_">This is a mode
+            <div class="modetitle" id="title_">Ultimatum No Power Generator
                 <div class="tags" id="variant__">[NPM, NLT, NFT, NCP]</div>
             </div>
             
@@ -47,4 +49,3 @@
     <script type="text/javascript" src="data.json"></script>
     <script src="app.js"></script>
 </body>
-
