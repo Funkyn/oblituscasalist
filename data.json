@@ -43,15 +43,7 @@
         "selfimposed" : "No Post Mortem, No Luring Together",
         "private" : 0
     },
-     {
-        "title": "Creepypasta Challenges Hard Mode Deathless In Order",
-        "tags": "",
-        "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by Nephryte on 23 Oct 2023, it is required that you play the modes in the order they're shown, Jeff -> Slenderman -> Smile Dog -> Eyeless Jack, in a row without dying.",
-        "thumbnail": "https://www.youtube.com/watch?v=uQhDFyYm4Vw&",
-        "selfimposed" : "---------",
-        "private" : 0
-    },
+  
      {
         "title": "Smile Dog Evil Mode",
         "tags": "[PVT]",
@@ -79,7 +71,15 @@
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
-    
+       {
+        "title": "Creepypasta Challenges Hard Mode Deathless In Order",
+        "tags": "",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by Nephryte on 23 Oct 2023, it is required that you play the modes in the order they're shown, Jeff -> Slenderman -> Smile Dog -> Eyeless Jack, in a row without dying.",
+        "thumbnail": "https://www.youtube.com/watch?v=uQhDFyYm4Vw&",
+        "selfimposed" : "---------",
+        "private" : 0
+    },
         {
         "title": "Slenderman Evil Mode",
         "tags": "[PVT]",
@@ -285,6 +285,7 @@
       
      
 ]
+
 
 
 
