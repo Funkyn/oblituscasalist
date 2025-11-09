@@ -240,7 +240,15 @@
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
-      
+         {
+        "title": "True Nightmare Smile Dog",
+        "tags": "",
+        "gamever": "Oblitus Casa [1.0.1]",
+        "info": "Points: 4000 <br> Verifier: Emperor Berzerk",
+        "thumbnail": "https://www.youtube.com/watch?v=lOp5K9n-9uU",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
        {
         "title": "Slenderman Hard Mode",
         "tags": "",
@@ -285,6 +293,7 @@
       
      
 ]
+
 
 
 
