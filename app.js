@@ -78,7 +78,7 @@ function tickChange(a) {
       if (parsedJSON[i].private == 0) {
         $("#" + i ).show()
       } else {
-         $("#" + i ).hide()
+        // $("#" + i ).hide()
       }
       
     }
@@ -153,5 +153,6 @@ displaymodes(true,3)
 
 $("#modebox").hide();
 //mainbox_.remove(); //remove the temp mode
+
 
 
