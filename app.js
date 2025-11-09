@@ -64,7 +64,7 @@ function tickChange(a) {
   }
   //console.log(toggle)
   displaymodes(true,toggle)
-   for (let i = 1; i <= 28; i++) {
+   for (let i = 1; i <= 29; i++) {
       if (parsedJSON[i].private == 0) {
         $("#" + i ).hide();
       }
@@ -74,11 +74,11 @@ function tickChange(a) {
     //do what you need here
     $("#chk").show()
     $("#lding").hide()
-    for (let i = 1; i <= 28; i++) {
+    for (let i = 1; i <= 29; i++) {
       if (parsedJSON[i].private == 0) {
         $("#" + i ).show()
       } else {
-        // $("#" + i ).hide()
+         //$("#" + i ).hide()
       }
       
     }
@@ -93,7 +93,7 @@ function getID(btn) {
 
 function displaymodes(include,generate) {
   console.log("toggle is" + generate)
-  for (let i = 1; i <= 28; i++) {
+  for (let i = 1; i <= 29; i++) {
     
     
     if (generate == 3) {
@@ -110,7 +110,7 @@ function displaymodes(include,generate) {
     if (generate == 1) {
         console.log("aaaaaaaaaaaaa")
         test = 0
-        for (let i = 1; i <= 28; i++) {
+        for (let i = 1; i <= 29; i++) {
           
           if (parsedJSON[i].private == 1) {
             console.log("a/ " +  i)
@@ -128,7 +128,7 @@ function displaymodes(include,generate) {
             console.log("a")
               console.log("aaabbbbbbbbbbbbbaaaaaaaaaa")
               test = 0
-              for (let i = 1; i <= 28; i++) {
+              for (let i = 1; i <= 29; i++) {
                 $("#" + i + " > #number").contents().first().replaceWith("#" + i);
                 if (parsedJSON[i].private == 1) {
                   console.log("b/ " +  i)
@@ -153,6 +153,5 @@ displaymodes(true,3)
 
 $("#modebox").hide();
 //mainbox_.remove(); //remove the temp mode
-
 
 
