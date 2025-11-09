@@ -43,15 +43,7 @@
         "selfimposed" : "No Post Mortem, No Luring Together",
         "private" : 0
     },
-     {
-        "title": "Smile Dog Evil Mode",
-        "tags": "[PVT]",
-        "gamever": "Oblitus Casa [vEvil]",
-        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte on 20 Jan 2025. This is the current hardest creepypasta challenge.",
-        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
-        "selfimposed" : "No self imposed challenges for this mode.",
-        "private" : 1
-    },
+ 
      {
         "title": "True Nightmare No Luring Together",
         "tags": "[NLT]",
@@ -69,6 +61,15 @@
         "thumbnail": "https://www.youtube.com/watch?v=G3tfObE_Uhg&t=146s",
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
+    },
+         {
+        "title": "Smile Dog Evil Mode",
+        "tags": "[PVT]",
+        "gamever": "Oblitus Casa [vEvil]",
+        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte on 20 Jan 2025. This is the current hardest creepypasta challenge.",
+        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 1
     },
        {
         "title": "Creepypasta Challenges Hard Mode Deathless In Order",
@@ -284,6 +285,7 @@
       
      
 ]
+
 
 
 
