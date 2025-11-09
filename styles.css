@@ -35,9 +35,10 @@
      height:180px;
      border-radius: 30px;
      background-image: url(assets/full43.png);
+       filter: drop-shadow(5px 5px 5px #000000);
 }
 .toppage {
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(29, 29, 29);
     
     font-family: oblituscasa;
     color: aliceblue;
@@ -48,8 +49,22 @@
     width: 100%;
     z-index: 999;
 }
-
+.bottompage {
+     background-color: rgb(29, 29, 29);
+    height: 40px;
+    font-family: oblituscasa;
+    color: aliceblue;
+    font-size: 25px;
+    border: 0px solid rgb(54, 54, 54);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) ;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    z-index: 999;
+}
 .menubox {
+
+    filter: drop-shadow(0px 5px 15px #000000);
     width: 600px;
     height:180px;
     background-color: rgb(32, 32, 32);
@@ -114,9 +129,29 @@
     font-size: 15px;
     
     font-weight: 400 ;
-    
+    ;
     margin: 0px 0px 0px 70px;
 
+}
+.loading {
+     filter: drop-shadow(5px 5px 5px #000000);
+      display: none;
+      width: 150px;
+      height: 150px;
+      font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      gap: 10px;
+      color: white;
+      font-size: 16px;
+    margin: 20px auto 0 auto;
+          background-image: url('assets/loading.gif');
+    
+         object-fit:cover;
+         background-size: 170px;
+           background-attachment:local;
+        background-position: -10px 35%;
+        
 }
 .info {
     position: absolute;
@@ -132,7 +167,7 @@
 
 .checkbox-container {
       display: flex;
-      
+       filter: drop-shadow(0px 5px 15px #000000);
       font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
