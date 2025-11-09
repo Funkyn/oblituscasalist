@@ -7,8 +7,8 @@ const thumbnail_ = document.getElementById("thumbnailPrimary")
 const selectedmode = 1
 
 
-
-
+var test = 0
+var toggle = 0
 
 
 
@@ -52,9 +52,37 @@ function applyAttributes(id___,title___,tags___,thumbnail___,gamever___) {
    
     //$('thumbnailPrimary').css( "background-image",url("https://img.youtube.com/vi/" + youtube_parser(thumbnail___) + "/0.jpg"));
 }
-function tickChange() {
+function tickChange(a) {
  // If the checkbox is checked, display the output text
-  
+
+ $("#chk").hide()
+ $("#lding").show()
+ 
+  toggle = toggle + 1
+  if (toggle == 2) {
+    toggle = 0
+  }
+  //console.log(toggle)
+  displaymodes(true,toggle)
+   for (let i = 1; i <= 28; i++) {
+      if (parsedJSON[i].private == 0) {
+        $("#" + i ).hide();
+      }
+      
+    }
+  setTimeout(function(){
+    //do what you need here
+    $("#chk").show()
+    $("#lding").hide()
+    for (let i = 1; i <= 28; i++) {
+      if (parsedJSON[i].private == 0) {
+        $("#" + i ).show()
+      } else {
+         $("#" + i ).hide()
+      }
+      
+    }
+}, 500);
 }
 function getID(btn) {
   console.log(btn.id)
@@ -63,20 +91,67 @@ function getID(btn) {
 }
   //
 
-
-for (let i = 1; i <= 28; i++) {
-    applyAttributes(i,parsedJSON[i].title,parsedJSON[i].tags,parsedJSON[i].thumbnail,parsedJSON[i].gamever);
-
-
-    var containerClone = $('#modebox').clone().appendTo($('.container'));
-    
-    var uniqueID = i
-    containerClone.attr('id',uniqueID)
+function displaymodes(include,generate) {
+  console.log("toggle is" + generate)
+  for (let i = 1; i <= 28; i++) {
     
     
+    if (generate == 3) {
+      applyAttributes(i,parsedJSON[i].title,parsedJSON[i].tags,parsedJSON[i].thumbnail,parsedJSON[i].gamever);
 
+
+          var containerClone = $('#modebox').clone().appendTo($('.container'));
+          
+          var uniqueID = i
+          console.log(i)
+          containerClone.attr('id',uniqueID)
+    };
+  }
+    if (generate == 1) {
+        console.log("aaaaaaaaaaaaa")
+        test = 0
+        for (let i = 1; i <= 28; i++) {
+          
+          if (parsedJSON[i].private == 1) {
+            console.log("a/ " +  i)
+            $("#" + i ).hide()
+            
+          } else {
+            test = test + 1
+            $("#" + i + " > #number").contents().first().replaceWith("#" + test);
+            
+            
+
+          };
+          $("#" + test).children("#main").text("bingus")
+        }} else {
+            console.log("a")
+              console.log("aaabbbbbbbbbbbbbaaaaaaaaaa")
+              test = 0
+              for (let i = 1; i <= 28; i++) {
+                $("#" + i + " > #number").contents().first().replaceWith("#" + i);
+                if (parsedJSON[i].private == 1) {
+                  console.log("b/ " +  i)
+                  
+                  
+                } else {
+                  test = test + 1
+                 
+                  
+                  
+
+                };
+                 $("#" + i).show()
+               
+              }
+        }
+        
+        
+ 
 }
+displaymodes(true,3)
 
-mainbox_.remove(); //remove the temp mode
+$("#modebox").hide();
+//mainbox_.remove(); //remove the temp mode
 
 
