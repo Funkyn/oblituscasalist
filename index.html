@@ -11,9 +11,12 @@
 
     <link rel="stylesheet" href="styles.css">
 
-    <div class="toppage">Oblitus Casa Modes List</div>
-   <div class="bottompage">Not Logged In [0] v.0.12111</div>
-    <div class="container">
+    <div class="toppage">Oblitus Casa Modes List
+        <div class="selector">_</div>
+        <div class="downloads" onclick="openBox()"></div>
+    </div>
+   <div class="bottompage" >Not Logged In [0]</div>
+    <div class="container" onclick="closeBox()">
 
        <div class="banner">.</div>
        <div class="loading" id="lding"></div>
@@ -36,12 +39,20 @@
         <div class="info" id="ver">Oblitus Casa [2.0.5]</div>
       </div>
     
-
+     
 
 
       
     </div>
-
+     <div class="box">
+        <div class="txt">Downloads</div>
+        <div class="prep" onclick="redirect(0)">
+            <div class="cltxt">Older Versions</div>
+        </div>
+        <div class="mods" onclick="redirect(1)">
+             <div class="cltxt1">Mods</div>
+        </div>
+     </div>
 
 
 </head>
@@ -49,6 +60,3 @@
     <script type="text/javascript" src="data.json"></script>
     <script src="app.js"></script>
 </body>
-
-
-
