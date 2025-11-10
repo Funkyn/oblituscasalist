@@ -7,7 +7,6 @@
    flex-direction: column;
     margin: 0px 0px 0px 0px;
     
-    
     position: absolute;
     width: 100%;
     max-width: 100%;
@@ -302,5 +301,6 @@
        border-radius: 10px;
 
 }
+
 
 
