@@ -59,7 +59,7 @@
     background-color: aliceblue;
     width: 150px;
     height: 220px;
-    margin: -228px 0px 10px 261px;
+     margin: 40px 0px 10px 81px;
      background-image: url(assets/modman.png);
       background-position: 0 0;
     background-size: 180px;
@@ -302,4 +302,5 @@
        border-radius: 10px;
 
 }
+
 
