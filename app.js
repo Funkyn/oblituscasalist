@@ -11,8 +11,6 @@ var test = 0
 var toggle = 0
 
 
-
-
 var json = (function() {
   var json = null;
   $.ajax({
@@ -170,6 +168,7 @@ displaymodes(true,3)
 
 $("#modebox").hide();
 //mainbox_.remove(); //remove the temp mode
+
 
 
 
