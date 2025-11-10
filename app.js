@@ -90,7 +90,24 @@ function getID(btn) {
   //window.location.href = 'details.html'
 }
   //
-
+function redirect(t) {
+  if (t == 0) {
+    
+      window.open('https://www.dropbox.com/scl/fo/f631nbhwm5smyhgyrd0qw/AEXtGYf_iz6siFAH2IRfQi0?rlkey=q6jxy2amkvt9hi5o4q7vuw93r&e=1&st=alrt7gzp&dl=0'
+  , '_blank').focus(); }
+  if (t == 1) {
+    window.open('https://mega.nz/folder/LgJzFawB#ZNb7Ew46cva1Z7ZoFtoMHw'
+  , '_blank').focus(); }
+}
+function openBox() {
+  $(".container").css({ 'filter': 'blur(15px)' });
+  $(".box").show()
+  console.log("mmmmmmmm")
+}
+function closeBox() {
+   $(".box").hide()
+  $(".container").css({ 'filter': 'blur(0px)' });
+}
 function displaymodes(include,generate) {
   console.log("toggle is" + generate)
   for (let i = 1; i <= 29; i++) {
@@ -153,5 +170,6 @@ displaymodes(true,3)
 
 $("#modebox").hide();
 //mainbox_.remove(); //remove the temp mode
+
 
 
