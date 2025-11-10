@@ -12,9 +12,103 @@
     width: 100%;
     max-width: 100%;
     align-items: center;
-    
+    filter: blur(0px);
 }
 
+.box {
+    color: aliceblue;
+    text-align: center;
+    font-family: oblituscasa;
+    font-size: 30px;
+    position: absolute;
+    background-color: rgb(24, 24, 24);
+    width: 430px;
+    border: 5px solid rgb(31, 31, 31);
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px #000000);
+    height: 300px;
+      top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    display: none;
+}
+.selector {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    display: none;
+}
+.prep {
+       filter: drop-shadow(5px 5px 5px #000000);
+    background-color: aliceblue;
+    width: 150px;
+    height: 220px;
+    margin: 50px 10px 10px 20px;
+    background-image: url(assets/corrupter.png);
+    background-position: 0px -240px;
+    background-size: 200px;
+}
+.mods {
+       filter: drop-shadow(5px 5px 5px #000000);
+    background-color: aliceblue;
+    width: 150px;
+    height: 220px;
+    margin: 50px 0px 10px 81px;
+     background-image: url(assets/modman.png);
+      background-position: 130px -190px;
+    background-size: 180px;
+
+}
+.prep:hover {
+  
+      outline: 2px solid white;
+    outline-offset: 0px;
+     cursor:pointer;
+   .cltxt {
+      font-weight: 600;
+    font-size: 28px;
+    margin: 79px 0 0 0;
+} 
+}
+.mods:hover {
+     
+      outline: 2px solid white;
+    outline-offset: 0px;
+     cursor:pointer;
+   .cltxt1 {
+     font-weight: 600;
+    font-size: 28px;
+    margin: 79px 0 0 0;
+} 
+}
+
+.txt {
+    position:absolute;
+    text-align: center;
+    width: 430px;
+}
+.cltxt {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 85px 0 0 0;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6);
+}
+.cltxt1 {
+    color: #ffffff;
+    font-size: 22px;
+     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6);
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 85px 0 0 0;
+}
 @font-face {
     font-family: oblituscasa;
     src:url("NewWaltDisneyFontRegular-BPen.ttf");
@@ -69,6 +163,7 @@
     display: flex;
    cursor:pointer;
     align-items: center;
+    
 }
 .section1 {
       background-attachment:scroll;
@@ -85,6 +180,23 @@
     border: 5px solid rgb(41, 41, 41);
      box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
+.downloads {
+    right: 10px;
+    top: 0;
+    position: absolute;
+    background-image: url(assets/somickey.png);
+       background-attachment:local;
+    background-size: auto auto;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background-size: 100%;
+    background-position: 2px -2px;
+    cursor:pointer;
+}
+.downloads:hover {
+   background-blend-mode: overlay;
+}
 .main {
     
     font-family: "Barlow Condensed", sans-serif;
@@ -100,8 +212,12 @@
     display: flex;
 }
 .menubox:hover{
-      outline: 2px solid white;
+    outline: 2px solid white;
     outline-offset: 0px
+}
+
+.selector:hover {
+    display: block
 }
 .modetitle {
     background: none;
@@ -177,5 +293,3 @@
        border-radius: 10px;
 
 }
-
-
