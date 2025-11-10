@@ -31,7 +31,7 @@ const parsedJSON = JSON.parse(JSON.stringify(json));
 //^ convert to table
 console.log(parsedJSON[0].title)
 
-
+$(".box").hide()
 function youtube_parser(url3){
     var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
     var match = url3.match(regExp);
@@ -170,6 +170,7 @@ displaymodes(true,3)
 
 $("#modebox").hide();
 //mainbox_.remove(); //remove the temp mode
+
 
 
 
