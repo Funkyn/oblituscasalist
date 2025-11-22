@@ -154,9 +154,9 @@
     {
         "title": "Nightmare No Flashing Daisy",
         "tags": "[NFD]",
-        "gamever": "https://www.youtube.com/watch?v=JVvJVhyjkgA",
+        "gamever": "Oblitus Casa [2.0.5]",
         "info": "This is the hardest challenge you can beat in legacy casa.",
-        "thumbnail": "https://www.youtube.com/watch?v=htX7lPUVXPQ&t=277s",
+        "thumbnail": "https://youtu.be/JVvJVhyjkgA?si=bH3-R-F2fooWXdeS",
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
@@ -206,21 +206,22 @@
         "selfimposed" : "",
         "private" : 0
     },
-{
-        "title": "Night 6 Mickeyless",
-        "tags": "[MKL]",
-        "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by sabotagedgamerz. You cannot look at MickMick",
-        "thumbnail": "https://www.youtube.com/watch?v=qOvY2QVO6a8&t=6s",
-        "selfimposed" : "No looking at MickMick",
-        "private" : 0
-    },
+
      {
         "title": "Night 6 No Flashing Together",
         "tags": "[NFT]",
         "gamever": "Oblitus Casa [2.0.5]",
         "info": "This mode was verified by sabotagedgamerz. You cannot look at MickMick",
         "thumbnail": "https://www.youtube.com/watch?v=VmXh1tVe0OM&t=42s",
+        "selfimposed" : "No looking at MickMick",
+        "private" : 0
+    },
+	{
+        "title": "Night 6 Mickeyless",
+        "tags": "[MKL]",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by sabotagedgamerz. You cannot look at MickMick",
+        "thumbnail": "https://www.youtube.com/watch?v=qOvY2QVO6a8&t=6s",
         "selfimposed" : "No looking at MickMick",
         "private" : 0
     },
@@ -341,6 +342,7 @@
       
      
 ]
+
 
 
 
