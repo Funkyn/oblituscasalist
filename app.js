@@ -108,7 +108,7 @@ function closeBox() {
 }
 function displaymodes(include,generate) {
   console.log("toggle is" + generate)
-  for (let i = 1; i <= 29; i++) {
+  for (let i = 1; i <= 35; i++) {
     
     
     if (generate == 3) {
@@ -168,6 +168,7 @@ displaymodes(true,3)
 
 $("#modebox").hide();
 //mainbox_.remove(); //remove the temp mode
+
 
 
 
