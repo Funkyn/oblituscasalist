@@ -16,7 +16,7 @@
         "private" : 0
     },
      {
-        "title": "True Nightmare No Luring & Flashing Together No Post Mortem ",
+        "title": "True Nightmare No Luring & Flashing Together No Post Mortem",
         "tags": "",
         "gamever": "Oblitus Casa [2.0.5]",
         "info": "This Mode was verified by Emperor Berserk on 14th September 2025",
@@ -53,6 +53,15 @@
         "selfimposed" : "No Luring Together",
         "private" : 0
     },
+   {
+        "title": "Night 6 Reverse Greed No Flashing Mother",
+        "tags": "[AMD, NFM]",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "-",
+        "thumbnail": "https://www.youtube.com/watch?v=4IAry75Zflo",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
        {
         "title": "Night 6 Reverse Greed",
         "tags": "[AMD]",
@@ -62,15 +71,7 @@
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
-         {
-        "title": "Smile Dog Evil Mode",
-        "tags": "[PVT]",
-        "gamever": "Oblitus Casa [vEvil]",
-        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte on 20 Jan 2025. This is the current hardest creepypasta challenge.",
-        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
-        "selfimposed" : "No self imposed challenges for this mode.",
-        "private" : 1
-    },
+    
        {
         "title": "Creepypasta Challenges Hard Mode Deathless In Order",
         "tags": "",
@@ -79,6 +80,15 @@
         "thumbnail": "https://www.youtube.com/watch?v=uQhDFyYm4Vw&",
         "selfimposed" : "---------",
         "private" : 0
+    },
+     {
+        "title": "Smile Dog Evil Mode",
+        "tags": "[PVT]",
+        "gamever": "Oblitus Casa [vEvil]",
+        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte on 20 Jan 2025. This is the current hardest creepypasta challenge.",
+        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 1
     },
         {
         "title": "Slenderman Evil Mode",
@@ -89,15 +99,7 @@
         "selfimposed" : "",
         "private" : 1
     },
-       {
-        "title": "Hardest Eyeless Jack",
-        "tags": "[HM, NR]",
-        "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by Nephryte. You cannot sprint which requires you to sneak up on Jack.",
-        "thumbnail": "https://www.youtube.com/watch?v=T5F5B3_iebA&t=80s",
-        "selfimposed" : "No Running",
-        "private" : 0
-    },
+     
    
         {
         "title": "Eyeless Jack Evil Mode",
@@ -117,27 +119,19 @@
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
-    
-     
-       {
-        "title": "Jeff The Killer Evil Mode",
-        "tags": "[PVT, HM]",
-        "gamever": "Oblitus Casa [vEvil]",
-        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte. You must now reboot the cameras by clicking on each of them 200 times instead of simply holding the camera button.",
-        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
-        "selfimposed" : "No self imposed challenges for this mode.",
-        "private" : 11
-    },
-    
-    {
-        "title": "Night 6 No Camera Vision",
-        "tags": "[NCV]",
+      {
+        "title": "Hardest Eyeless Jack",
+        "tags": "[HM, NR]",
         "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by Emperor Berserk. This is night 6 but you have to close all the cameras before dealing with MickMick, Corrupted Face and Mother Notepad",
-        "thumbnail": "https://www.youtube.com/watch?v=ID5I4Jidi6o&t=156s",
-        "selfimposed" : "",
+        "info": "This mode was verified by Nephryte. You cannot sprint which requires you to sneak up on Jack.",
+        "thumbnail": "https://www.youtube.com/watch?v=T5F5B3_iebA&t=80s",
+        "selfimposed" : "No Running",
         "private" : 0
     },
+     
+     
+    
+   
      {
         "title": "True Nightmare No Luring Together",
         "tags": "[NLT]",
@@ -152,6 +146,15 @@
         "title": "True Nightmare No Post Mortem",
         "tags": "[NPM]",
         "gamever": "Oblitus Casa [1.0.1]",
+        "info": "This is the hardest challenge you can beat in legacy casa.",
+        "thumbnail": "https://www.youtube.com/watch?v=htX7lPUVXPQ&t=277s",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
+    {
+        "title": "Nightmare No Flashing Daisy",
+        "tags": "[NFD]",
+        "gamever": "https://www.youtube.com/watch?v=JVvJVhyjkgA",
         "info": "This is the hardest challenge you can beat in legacy casa.",
         "thumbnail": "https://www.youtube.com/watch?v=htX7lPUVXPQ&t=277s",
         "selfimposed" : "No self imposed challenges for this mode.",
@@ -185,7 +188,33 @@
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
-  
+ {
+        "title": "Limbo 30 AI",
+        "tags": "[UNC]",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "Points: 4000 <br> Verifier: Emperor Berzerk",
+        "thumbnail": "https://www.youtube.com/watch?v=EVeg-vBxmqE",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
+   {
+        "title": "Night 6 No Camera Vision",
+        "tags": "[NCV]",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by Emperor Berserk. This is night 6 but you have to close all the cameras before dealing with MickMick, Corrupted Face and Mother Notepad",
+        "thumbnail": "https://www.youtube.com/watch?v=ID5I4Jidi6o&t=156s",
+        "selfimposed" : "",
+        "private" : 0
+    },
+{
+        "title": "Night 6 Mickeyless",
+        "tags": "[MKL]",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by sabotagedgamerz. You cannot look at MickMick",
+        "thumbnail": "https://www.youtube.com/watch?v=qOvY2QVO6a8&t=6s",
+        "selfimposed" : "No looking at MickMick",
+        "private" : 0
+    },
      {
         "title": "Night 6 No Flashing Together",
         "tags": "[NFT]",
@@ -195,14 +224,14 @@
         "selfimposed" : "No looking at MickMick",
         "private" : 0
     },
-      {
-        "title": "Night 6 Mickeyless",
-        "tags": "[MKL]",
-        "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by sabotagedgamerz. You cannot look at MickMick",
-        "thumbnail": "https://www.youtube.com/watch?v=qOvY2QVO6a8&t=6s",
-        "selfimposed" : "No looking at MickMick",
-        "private" : 0
+        {
+        "title": "Jeff The Killer Evil Mode",
+        "tags": "[PVT, HM]",
+        "gamever": "Oblitus Casa [vEvil]",
+        "info": "!!!This mode is on a private build!!! This mode was verified by Nephryte. You must now reboot the cameras by clicking on each of them 200 times instead of simply holding the camera button.",
+        "thumbnail": "https://www.youtube.com/watch?v=ZSQ1VTs8Vqc&t=51s",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 1
     },
       {
         "title": "Night 6 No Flashing Mother",
@@ -213,15 +242,7 @@
         "selfimposed" : "No looking at MickMick",
         "private" : 0
     },
-      {
-        "title": "Night 6",
-        "tags": "",
-        "gamever": "Oblitus Casa [2.0.5]",
-        "info": "This mode was verified by Nephryte. This mode is a buffed version of Night 5.",
-        "thumbnail": "https://www.youtube.com/watch?v=8G6Ah2NfsXY&t=2s",
-        "selfimposed" : "No self imposed challenges for this mode.",
-        "private" : 0
-    },
+      
        {
         "title": "True Nightmare",
         "tags": "",
@@ -229,6 +250,15 @@
         "info": "Points: 4000 <br> Verifier: Emperor Berzerk",
         "thumbnail": "https://www.youtube.com/watch?v=htX7lPUVXPQ&t=277s",
          "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
+	{
+        "title": "Night 6",
+        "tags": "",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "This mode was verified by Nephryte. This mode is a buffed version of Night 5.",
+        "thumbnail": "https://www.youtube.com/watch?v=8G6Ah2NfsXY&t=2s",
+        "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
         {
@@ -255,6 +285,24 @@
         "gamever": "Oblitus Casa [2.0.5]",
         "info": "Points: 4000 <br> Verifier: Emperor Berzerk",
         "thumbnail": "https://www.youtube.com/watch?v=0CrzEnZ8C74&",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
+    {
+        "title": "Nightmare",
+        "tags": "",
+        "gamever": "Oblitus Casa [2.0.5]",
+        "info": "Points: 4000 <br> Verifier: Emperor Berzerk",
+        "thumbnail": "https://www.youtube.com/watch?v=JHLGGWisdZc",
+        "selfimposed" : "No self imposed challenges for this mode.",
+        "private" : 0
+    },
+    {
+        "title": "Pandemonium",
+        "tags": "",
+        "gamever": "Chaos at Treasure Island",
+        "info": "Points: 4000 <br> Verifier: Emperor Berzerk",
+        "thumbnail": "https://www.youtube.com/watch?v=L0jvco7-F7I&t=900s",
         "selfimposed" : "No self imposed challenges for this mode.",
         "private" : 0
     },
@@ -293,6 +341,7 @@
       
      
 ]
+
 
 
 
