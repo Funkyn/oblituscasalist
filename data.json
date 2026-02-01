@@ -62,6 +62,15 @@
         "selfimposed" : "No Luring Together",
         "private" : 0
     },
+	 {
+        "title": "Night 6 Gauntlet",
+        "tags": "[NDC → NFM → NFT → AMD]",
+        "gamever": " Oblitus Casa [2.0.5]",
+        "info": "////",
+        "thumbnail": "https://www.youtube.com/watch?v=a0XhAgGbCAo",
+        "selfimposed" : "asssssssssssn",
+        "private" : 0
+    },
    {
         "title": "Night 6 Reverse Greed No Flashing Mother",
         "tags": "[AMD, NFM]",
@@ -150,15 +159,7 @@
         "selfimposed" : "No Luring Together",
         "private" : 0
     },
-      {
-        "title": "Night 6 Gauntlet",
-        "tags": "[NDC → NFM → NFT → AMD]",
-        "gamever": " Oblitus Casa [2.0.5]",
-        "info": "////",
-        "thumbnail": "https://www.youtube.com/watch?v=a0XhAgGbCAo",
-        "selfimposed" : "asssssssssssn",
-        "private" : 0
-    },
+ 
        {
         "title": "True Nightmare No Post Mortem",
         "tags": "[NPM]",
@@ -359,6 +360,7 @@
       
      
 ]
+
 
 
 
