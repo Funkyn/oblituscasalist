@@ -6,6 +6,15 @@
         "info": "====top 1 below and decending====",
         "thumbnail": "https://www.youtube.com/watch?v=iPDY4oBKSPA&t=19s"
     },
+	 {
+        "title": "Hardest Night 6",
+        "tags": "[AMD, NFT, NDC, NFNE]",
+        "gamever": " Oblitus Casa [2.0.5]",
+        "info": "A",
+        "thumbnail": "https://www.youtube.com/watch?v=HD53nClYNd8",
+        "selfimposed" : "Help",
+        "private" : 0
+    },
     {
         "title": "Hardest True Nightmare",
         "tags": "[NLT, NFT, NPM, NCP]",
@@ -141,7 +150,15 @@
         "selfimposed" : "No Luring Together",
         "private" : 0
     },
-      
+      {
+        "title": "Night 6 Gauntlet",
+        "tags": "[NDC → NFM → NFT → AMD]",
+        "gamever": " Oblitus Casa [2.0.5]",
+        "info": "////",
+        "thumbnail": "https://www.youtube.com/watch?v=a0XhAgGbCAo",
+        "selfimposed" : "asssssssssssn",
+        "private" : 0
+    },
        {
         "title": "True Nightmare No Post Mortem",
         "tags": "[NPM]",
@@ -342,6 +359,7 @@
       
      
 ]
+
 
 
 
